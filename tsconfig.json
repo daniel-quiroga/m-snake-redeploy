@@ -1,0 +1,47 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": false,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2017",
+    "module": "es2020",
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es2018",
+      "dom",
+      "scripthost"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/phaser/types"
+    ],
+    "types": [
+      "Phaser",
+      "node",
+      "express",
+      "jest"
+    ],
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
